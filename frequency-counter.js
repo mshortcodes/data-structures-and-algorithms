@@ -1,5 +1,5 @@
 /*
-Frequency counter is a problem solving pattern used to count the frequency of elements in an array, string, or other collection. It uses an object to track the count of the elements.
+Frequency counter is a problem solving pattern used to count the frequency of elements in an array, string, or other collection. It uses an object to track the count of the elements. This solution uses two separate loops rather than a nested loop.
 
 Time complexity: O(n)
 
@@ -34,3 +34,9 @@ function isAnagram(str1, str2) {
 
 	return true;
 }
+
+console.log(`
+${isAnagram('cinema', 'iceman')}
+${isAnagram('racecar', 'carrace')}
+${isAnagram('anagram', 'nagaramm')}
+`);
