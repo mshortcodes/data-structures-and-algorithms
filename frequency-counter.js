@@ -1,7 +1,8 @@
 /*
-Frequency counter is a problem solving pattern used to count the frequency of elements in an array, string, or other collection. It uses an object to track the count of the elements. This solution uses two separate loops rather than a nested loop.
+Frequency counter is a problem-solving pattern used to count the frequency of elements in an array, string, or other collection. It uses an object to track the count of the elements. This solution uses two separate loops rather than a nested loop.
 
-Time complexity: O(n)
+Time complexity: O(n) - linear
+Space complexity: O(n) - linear
 
 Anagram challenge:
 Given two strings, write a function to determine if the second string is an anagram of the first. An anagram is a word, phrase, or name formed by rearranging the letters of another, such as cinema, formed from iceman.
